@@ -1,0 +1,42 @@
+{
+  "name": "backstage-button",
+  "version": "0.1.0",
+  "description": "Backstage UI button component",
+  "main": "index.js",
+  "scripts": {    
+    "start": "gulp serve",
+    "build": "gulp dist",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js 'test/**/*.@(js|jsx)'",
+    "lint": "eslint --config=./.eslintrc src/js/**/*.js example/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backstage-ui/backstage-button.git"
+  },
+  "keywords": [
+    "backstage",
+    "button",
+    "globocom",
+    "component"
+  ],
+  "author": "Raphael Amorim",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/backstage-ui/backstage-button/issues"
+  },
+  "homepage": "https://github.com/backstage-ui/backstage-button#readme",
+  "dependencies": {
+    "classnames": "^2.1.5"
+  },
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.1",
+    "react": "^0.14.0"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0"
+  }
+}
