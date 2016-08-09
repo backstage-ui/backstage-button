@@ -11,7 +11,8 @@ $ npm install backstage-button
 ## Example
 
 ```js
+
 import React, { Component } from 'react';
-import {  } from 'backstage-button';
+import Button from 'backstage-button';
 
 ```

@@ -1,14 +1,14 @@
-var gulp = require('gulp');
-var del = require('del');
-var uglify = require('gulp-uglify');
-var rename = require('gulp-rename');
-var babel = require('gulp-babel');
+var gulp = require('gulp'),
+    del = require('del'),
+    uglify = require('gulp-uglify'),
+    rename = require('gulp-rename'),
+    babel = require('gulp-babel');
 
 var SRC = './src',
     DIST = './dist';
 
 gulp.task('scripts', function() {
-  gulp.src(SRC + 'js/index.js')
+  gulp.src(SRC + '/js/index.js')
     .pipe(babel())
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest(DIST));
