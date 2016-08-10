@@ -1,5 +1,7 @@
 # backstage-button
 
+[![Build Status](https://travis-ci.org/backstage-ui/backstage-button.svg)](https://travis-ci.org/backstage-ui/backstage-button)
+
 > Backstage UI Component
 
 ## Installing
