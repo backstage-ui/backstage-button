@@ -1,0 +1,164 @@
+.bs-button {
+  padding: 0 1rem;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+}
+.bs-button + .bs-button {
+  margin-left: 1.5rem;
+}
+.bs-button:hover {
+  transition: background-color ease-in-out .20s;
+}
+.bs-button:active {
+  box-shadow: none;
+}
+.bs-button--flex {
+  display: block;
+  width: 100%;
+}
+.bs-button__icon--update {
+  -webkit-mask: url("/assets/img/update-icon.svg") 0 center no-repeat;
+  mask: url("/assets/img/update-icon.svg") 0 center no-repeat;
+}
+.bs-button__icon {
+  background-color: #FFF;
+  display: inline-block;
+  vertical-align: middle;
+}
+.bs-button__icon + span {
+  margin-left: 0.5rem;
+}
+.bs-button__icon--none + span {
+  margin-left: 0;
+}
+.bs-button__icon--update {
+  width: 23px;
+  height: 19px;
+}
+.bs-button__icon--none {
+  display: none;
+}
+.bs-button, .bs-button--black {
+  background-color: #333;
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.3);
+}
+.bs-button:hover:not(:active), .bs-button--black:hover:not(:active) {
+  background-color: #181818;
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.3);
+}
+.bs-button:active, .bs-button--black:active {
+  background-color: #666;
+}
+.bs-button--black:not(.bs-button--disabled).bs-button--flat {
+  background-color: transparent;
+  color: #333;
+  box-shadow: none;
+}
+.bs-button--black:not(.bs-button--disabled).bs-button--flat .bs-button__icon {
+  background-color: #333;
+}
+.bs-button--black:not(.bs-button--disabled).bs-button--flat:hover:not(:active) {
+  background-color: transparent;
+  color: #181818;
+}
+.bs-button--black:not(.bs-button--disabled).bs-button--flat:hover:not(:active) .bs-button__icon {
+  background-color: #181818;
+}
+.bs-button--black:not(.bs-button--disabled).bs-button--flat:active {
+  background-color: transparent;
+  color: #666;
+}
+.bs-button--black:not(.bs-button--disabled).bs-button--flat:active .bs-button__icon {
+  background-color: #666;
+}
+.bs-button--blue {
+  background-color: #0669de;
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.3);
+}
+.bs-button--blue.bs-button--flat {
+  background-color: transparent;
+  color: #0669de;
+  box-shadow: none;
+}
+.bs-button--blue.bs-button--flat .bs-button__icon {
+  background-color: #0669de;
+}
+.bs-button--blue.bs-button--flat:hover:not(:active) {
+  background-color: transparent;
+  color: #044cb3;
+  box-shadow: none;
+}
+.bs-button--blue.bs-button--flat:hover:not(:active) .bs-button__icon {
+  background-color: #044cb3;
+}
+.bs-button--blue.bs-button--flat:active {
+  background-color: transparent;
+  color: #3192e7;
+  box-shadow: none;
+}
+.bs-button--blue.bs-button--flat:active .bs-button__icon {
+  background-color: #3192e7;
+}
+.bs-button--blue:hover:not(:active) {
+  background-color: #044cb3;
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.3);
+}
+.bs-button--blue:active {
+  background-color: #3192e7;
+}
+.bs-button--red {
+  background-color: #e83f26;
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.3);
+}
+.bs-button--red.bs-button--flat {
+  background-color: transparent;
+  color: #e83f26;
+  box-shadow: none;
+}
+.bs-button--red.bs-button--flat .bs-button__icon {
+  background-color: #e83f26;
+}
+.bs-button--red.bs-button--flat:hover:not(:active) {
+  background-color: transparent;
+  color: #bc2e1e;
+  box-shadow: none;
+}
+.bs-button--red.bs-button--flat:hover:not(:active) .bs-button__icon {
+  background-color: #bc2e1e;
+}
+.bs-button--red.bs-button--flat:active {
+  background-color: transparent;
+  color: #ee6a50;
+  box-shadow: none;
+}
+.bs-button--red.bs-button--flat:active .bs-button__icon {
+  background-color: #ee6a50;
+}
+.bs-button--red:hover:not(:active) {
+  background-color: #bc2e1e;
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.3);
+}
+.bs-button--red:active {
+  background-color: #ee6a50;
+}
+.bs-button--disabled, .bs-button--disabled:hover:not(:active), .bs-button--disabled:active {
+  background-color: #ddd;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+.bs-input-group-button {
+  width: 1%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.bs-input-group-button .bs-button {
+  margin: 0 0 0 -4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
