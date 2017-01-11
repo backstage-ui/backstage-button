@@ -24,25 +24,25 @@
   },
   "homepage": "https://github.com/backstage-ui/backstage-button#readme",
   "dependencies": {
-    "classnames": "^2.2.5"
+    "classnames": "2.2.5"
   },
   "devDependencies": {
-    "babel-jest": "^14.1.0",
-    "babel-preset-es2015": "^6.14.0",
-    "babel-preset-react": "^6.11.1",
-    "del": "^2.2.2",
-    "enzyme": "^2.4.1",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^2.0.0",
-    "jest": "^14.1.0",
-    "react": "^15.3.1",
-    "react-addons-test-utils": "^15.3.1",
-    "react-dom": "^15.3.1"
+    "babel-jest": "14.1.0",
+    "babel-preset-es2015": "6.14.0",
+    "babel-preset-react": "6.11.1",
+    "del": "2.2.2",
+    "enzyme": "2.4.1",
+    "gulp": "3.9.1",
+    "gulp-babel": "6.1.2",
+    "gulp-rename": "1.2.2",
+    "gulp-uglify": "2.0.0",
+    "jest": "14.1.0",
+    "react": "15.3.1",
+    "react-addons-test-utils": "15.3.1",
+    "react-dom": "15.3.1"
   },
   "peerDependencies": {
-    "react": "^15.3.1"
+    "react": "15.3.1"
   },
   "jest": {
     "automock": false
