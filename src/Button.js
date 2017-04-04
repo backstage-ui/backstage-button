@@ -5,9 +5,10 @@ import classNames from 'classnames';
 
 export default class Button extends Component {
 	render() {
+        const classes = classNames('bs-button', this.props.className);
 		return (
-			<div className={this.props.className} style={style}>
-				<button />
+			<div className={classes} style={style}>
+				<button>Some Text</button>
 			</div>
 		);
 	}
